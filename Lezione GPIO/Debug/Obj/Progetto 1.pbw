@@ -1,0 +1,1660 @@
+[
+  {
+    "ID": "c:MySTM32F303VC.h@8@macro@RCC_AHBENR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_AHBENR",
+    "location": {
+      "column": "9",
+      "line": "1",
+      "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+    },
+    "name": "RCC_AHBENR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:MySTM32F303VC.h@39@macro@GPIOE_MODER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOE_MODER",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+    },
+    "name": "GPIOE_MODER",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:MySTM32F303VC.h@71@macro@GPIOE_ODR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOE_ODR",
+    "location": {
+      "column": "9",
+      "line": "3",
+      "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+    },
+    "name": "GPIOE_ODR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:MySTM32F303VC.h@101@macro@GPIOA_MODER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_MODER",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+    },
+    "name": "GPIOA_MODER",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:MySTM32F303VC.h@133@macro@GPIOA_IDR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_IDR",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+    },
+    "name": "GPIOA_IDR",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:MySTM32F303VC.h@165@macro@IOPEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IOPEN",
+    "location": {
+      "column": "9",
+      "line": "7",
+      "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+    },
+    "name": "IOPEN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:MySTM32F303VC.h@188@macro@OUTPUT9",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "OUTPUT9",
+    "location": {
+      "column": "9",
+      "line": "8",
+      "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+    },
+    "name": "OUTPUT9",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:MySTM32F303VC.h@213@macro@P9",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "P9",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+    },
+    "name": "P9",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@punt",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "punt",
+    "location": {
+      "column": "15",
+      "line": "11",
+      "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+    },
+    "name": "punt",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@SA@GPIO_Type",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "12",
+      "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+    },
+    "members": [
+      {
+        "ID": "c:@SA@GPIO_Type@Ua",
+        "What": "Union",
+        "defdec": "Def",
+        "display": "",
+        "location": {
+          "column": "3",
+          "line": "13",
+          "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+        },
+        "members": [
+          {
+            "ID": "c:@SA@GPIO_Type@Ua@FI@MODER",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "MODER",
+            "location": {
+              "column": "23",
+              "line": "13",
+              "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+            },
+            "name": "MODER",
+            "origin": "user_include",
+            "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_13_3"
+          },
+          {
+            "ID": "c:@SA@GPIO_Type@Ua@Sa",
+            "What": "Struct",
+            "defdec": "Def",
+            "display": "",
+            "location": {
+              "column": "3",
+              "line": "14",
+              "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+            },
+            "members": [
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@MODER0",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "MODER0",
+                "location": {
+                  "column": "14",
+                  "line": "15",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "MODER0",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_13_3::_anonymous_MySTM32F303VC_h_14_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@MODER1",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "MODER1",
+                "location": {
+                  "column": "14",
+                  "line": "16",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "MODER1",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_13_3::_anonymous_MySTM32F303VC_h_14_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@MODER2",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "MODER2",
+                "location": {
+                  "column": "14",
+                  "line": "17",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "MODER2",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_13_3::_anonymous_MySTM32F303VC_h_14_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@MODER3",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "MODER3",
+                "location": {
+                  "column": "14",
+                  "line": "18",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "MODER3",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_13_3::_anonymous_MySTM32F303VC_h_14_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@MODER4",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "MODER4",
+                "location": {
+                  "column": "14",
+                  "line": "19",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "MODER4",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_13_3::_anonymous_MySTM32F303VC_h_14_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@MODER5",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "MODER5",
+                "location": {
+                  "column": "14",
+                  "line": "20",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "MODER5",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_13_3::_anonymous_MySTM32F303VC_h_14_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@MODER6",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "MODER6",
+                "location": {
+                  "column": "14",
+                  "line": "21",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "MODER6",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_13_3::_anonymous_MySTM32F303VC_h_14_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@MODER7",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "MODER7",
+                "location": {
+                  "column": "14",
+                  "line": "22",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "MODER7",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_13_3::_anonymous_MySTM32F303VC_h_14_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@MODER8",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "MODER8",
+                "location": {
+                  "column": "14",
+                  "line": "23",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "MODER8",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_13_3::_anonymous_MySTM32F303VC_h_14_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@MODER9",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "MODER9",
+                "location": {
+                  "column": "14",
+                  "line": "24",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "MODER9",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_13_3::_anonymous_MySTM32F303VC_h_14_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@MODER10",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "MODER10",
+                "location": {
+                  "column": "14",
+                  "line": "25",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "MODER10",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_13_3::_anonymous_MySTM32F303VC_h_14_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@MODER11",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "MODER11",
+                "location": {
+                  "column": "14",
+                  "line": "26",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "MODER11",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_13_3::_anonymous_MySTM32F303VC_h_14_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@MODER12",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "MODER12",
+                "location": {
+                  "column": "14",
+                  "line": "27",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "MODER12",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_13_3::_anonymous_MySTM32F303VC_h_14_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@MODER13",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "MODER13",
+                "location": {
+                  "column": "14",
+                  "line": "28",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "MODER13",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_13_3::_anonymous_MySTM32F303VC_h_14_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@MODER14",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "MODER14",
+                "location": {
+                  "column": "14",
+                  "line": "29",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "MODER14",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_13_3::_anonymous_MySTM32F303VC_h_14_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@MODER15",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "MODER15",
+                "location": {
+                  "column": "14",
+                  "line": "30",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "MODER15",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_13_3::_anonymous_MySTM32F303VC_h_14_3"
+              }
+            ],
+            "name": "",
+            "origin": "user_include",
+            "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_13_3"
+          }
+        ],
+        "name": "",
+        "origin": "user_include",
+        "scope": "_anonymous_MySTM32F303VC_h_12_9"
+      },
+      {
+        "ID": "c:@SA@GPIO_Type@FI@OTYPER",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "OTYPER",
+        "location": {
+          "column": "16",
+          "line": "33",
+          "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+        },
+        "name": "OTYPER",
+        "origin": "user_include",
+        "scope": "_anonymous_MySTM32F303VC_h_12_9"
+      },
+      {
+        "ID": "c:@SA@GPIO_Type@FI@OSPEEDR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "OSPEEDR",
+        "location": {
+          "column": "16",
+          "line": "34",
+          "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+        },
+        "name": "OSPEEDR",
+        "origin": "user_include",
+        "scope": "_anonymous_MySTM32F303VC_h_12_9"
+      },
+      {
+        "ID": "c:@SA@GPIO_Type@FI@PUPDR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PUPDR",
+        "location": {
+          "column": "16",
+          "line": "35",
+          "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+        },
+        "name": "PUPDR",
+        "origin": "user_include",
+        "scope": "_anonymous_MySTM32F303VC_h_12_9"
+      },
+      {
+        "ID": "c:@SA@GPIO_Type@Ua",
+        "What": "Union",
+        "defdec": "Def",
+        "display": "",
+        "location": {
+          "column": "3",
+          "line": "36",
+          "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+        },
+        "members": [
+          {
+            "ID": "c:@SA@GPIO_Type@Ua@FI@IDR",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "IDR",
+            "location": {
+              "column": "22",
+              "line": "36",
+              "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+            },
+            "name": "IDR",
+            "origin": "user_include",
+            "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_36_3"
+          },
+          {
+            "ID": "c:@SA@GPIO_Type@Ua@Sa",
+            "What": "Struct",
+            "defdec": "Def",
+            "display": "",
+            "location": {
+              "column": "3",
+              "line": "37",
+              "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+            },
+            "members": [
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@IDR0",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR0",
+                "location": {
+                  "column": "14",
+                  "line": "38",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "IDR0",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_36_3::_anonymous_MySTM32F303VC_h_37_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@IDR1",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR1",
+                "location": {
+                  "column": "14",
+                  "line": "39",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "IDR1",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_36_3::_anonymous_MySTM32F303VC_h_37_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@IDR2",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR2",
+                "location": {
+                  "column": "14",
+                  "line": "40",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "IDR2",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_36_3::_anonymous_MySTM32F303VC_h_37_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@IDR3",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR3",
+                "location": {
+                  "column": "14",
+                  "line": "41",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "IDR3",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_36_3::_anonymous_MySTM32F303VC_h_37_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@IDR4",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR4",
+                "location": {
+                  "column": "14",
+                  "line": "42",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "IDR4",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_36_3::_anonymous_MySTM32F303VC_h_37_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@IDR5",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR5",
+                "location": {
+                  "column": "14",
+                  "line": "43",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "IDR5",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_36_3::_anonymous_MySTM32F303VC_h_37_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@IDR6",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR6",
+                "location": {
+                  "column": "14",
+                  "line": "44",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "IDR6",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_36_3::_anonymous_MySTM32F303VC_h_37_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@IDR7",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR7",
+                "location": {
+                  "column": "14",
+                  "line": "45",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "IDR7",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_36_3::_anonymous_MySTM32F303VC_h_37_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@IDR8",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR8",
+                "location": {
+                  "column": "14",
+                  "line": "46",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "IDR8",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_36_3::_anonymous_MySTM32F303VC_h_37_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@IDR9",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR9",
+                "location": {
+                  "column": "14",
+                  "line": "47",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "IDR9",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_36_3::_anonymous_MySTM32F303VC_h_37_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@IDR10",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR10",
+                "location": {
+                  "column": "14",
+                  "line": "48",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "IDR10",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_36_3::_anonymous_MySTM32F303VC_h_37_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@IDR11",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR11",
+                "location": {
+                  "column": "14",
+                  "line": "49",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "IDR11",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_36_3::_anonymous_MySTM32F303VC_h_37_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@IDR12",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR12",
+                "location": {
+                  "column": "14",
+                  "line": "50",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "IDR12",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_36_3::_anonymous_MySTM32F303VC_h_37_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@IDR13",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR13",
+                "location": {
+                  "column": "14",
+                  "line": "51",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "IDR13",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_36_3::_anonymous_MySTM32F303VC_h_37_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@IDR14",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR14",
+                "location": {
+                  "column": "14",
+                  "line": "52",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "IDR14",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_36_3::_anonymous_MySTM32F303VC_h_37_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@IDR15",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IDR15",
+                "location": {
+                  "column": "14",
+                  "line": "53",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "IDR15",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_36_3::_anonymous_MySTM32F303VC_h_37_3"
+              }
+            ],
+            "name": "",
+            "origin": "user_include",
+            "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_36_3"
+          }
+        ],
+        "name": "",
+        "origin": "user_include",
+        "scope": "_anonymous_MySTM32F303VC_h_12_9"
+      },
+      {
+        "ID": "c:@SA@GPIO_Type@Ua",
+        "What": "Union",
+        "defdec": "Def",
+        "display": "",
+        "location": {
+          "column": "3",
+          "line": "56",
+          "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+        },
+        "members": [
+          {
+            "ID": "c:@SA@GPIO_Type@Ua@FI@ODR",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "ODR",
+            "location": {
+              "column": "22",
+              "line": "56",
+              "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+            },
+            "name": "ODR",
+            "origin": "user_include",
+            "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_56_3"
+          },
+          {
+            "ID": "c:@SA@GPIO_Type@Ua@Sa",
+            "What": "Struct",
+            "defdec": "Def",
+            "display": "",
+            "location": {
+              "column": "3",
+              "line": "57",
+              "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+            },
+            "members": [
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@ODR0",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR0",
+                "location": {
+                  "column": "14",
+                  "line": "58",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "ODR0",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_56_3::_anonymous_MySTM32F303VC_h_57_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@ODR1",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR1",
+                "location": {
+                  "column": "14",
+                  "line": "59",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "ODR1",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_56_3::_anonymous_MySTM32F303VC_h_57_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@ODR2",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR2",
+                "location": {
+                  "column": "14",
+                  "line": "60",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "ODR2",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_56_3::_anonymous_MySTM32F303VC_h_57_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@ODR3",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR3",
+                "location": {
+                  "column": "14",
+                  "line": "61",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "ODR3",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_56_3::_anonymous_MySTM32F303VC_h_57_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@ODR4",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR4",
+                "location": {
+                  "column": "14",
+                  "line": "62",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "ODR4",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_56_3::_anonymous_MySTM32F303VC_h_57_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@ODR5",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR5",
+                "location": {
+                  "column": "14",
+                  "line": "63",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "ODR5",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_56_3::_anonymous_MySTM32F303VC_h_57_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@ODR6",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR6",
+                "location": {
+                  "column": "14",
+                  "line": "64",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "ODR6",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_56_3::_anonymous_MySTM32F303VC_h_57_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@ODR7",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR7",
+                "location": {
+                  "column": "14",
+                  "line": "65",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "ODR7",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_56_3::_anonymous_MySTM32F303VC_h_57_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@ODR8",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR8",
+                "location": {
+                  "column": "14",
+                  "line": "66",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "ODR8",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_56_3::_anonymous_MySTM32F303VC_h_57_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@ODR9",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR9",
+                "location": {
+                  "column": "14",
+                  "line": "67",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "ODR9",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_56_3::_anonymous_MySTM32F303VC_h_57_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@ODR10",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR10",
+                "location": {
+                  "column": "14",
+                  "line": "68",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "ODR10",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_56_3::_anonymous_MySTM32F303VC_h_57_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@ODR11",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR11",
+                "location": {
+                  "column": "14",
+                  "line": "69",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "ODR11",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_56_3::_anonymous_MySTM32F303VC_h_57_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@ODR12",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR12",
+                "location": {
+                  "column": "14",
+                  "line": "70",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "ODR12",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_56_3::_anonymous_MySTM32F303VC_h_57_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@ODR13",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR13",
+                "location": {
+                  "column": "14",
+                  "line": "71",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "ODR13",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_56_3::_anonymous_MySTM32F303VC_h_57_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@ODR14",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR14",
+                "location": {
+                  "column": "14",
+                  "line": "72",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "ODR14",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_56_3::_anonymous_MySTM32F303VC_h_57_3"
+              },
+              {
+                "ID": "c:@SA@GPIO_Type@Ua@Sa@FI@ODR15",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ODR15",
+                "location": {
+                  "column": "14",
+                  "line": "73",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "ODR15",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_56_3::_anonymous_MySTM32F303VC_h_57_3"
+              }
+            ],
+            "name": "",
+            "origin": "user_include",
+            "scope": "_anonymous_MySTM32F303VC_h_12_9::_anonymous_MySTM32F303VC_h_56_3"
+          }
+        ],
+        "name": "",
+        "origin": "user_include",
+        "scope": "_anonymous_MySTM32F303VC_h_12_9"
+      },
+      {
+        "ID": "c:@SA@GPIO_Type@FI@BSRR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "BSRR",
+        "location": {
+          "column": "16",
+          "line": "76",
+          "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+        },
+        "name": "BSRR",
+        "origin": "user_include",
+        "scope": "_anonymous_MySTM32F303VC_h_12_9"
+      },
+      {
+        "ID": "c:@SA@GPIO_Type@FI@LCKR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "LCKR",
+        "location": {
+          "column": "16",
+          "line": "77",
+          "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+        },
+        "name": "LCKR",
+        "origin": "user_include",
+        "scope": "_anonymous_MySTM32F303VC_h_12_9"
+      },
+      {
+        "ID": "c:@SA@GPIO_Type@FI@AFRL",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "AFRL",
+        "location": {
+          "column": "16",
+          "line": "78",
+          "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+        },
+        "name": "AFRL",
+        "origin": "user_include",
+        "scope": "_anonymous_MySTM32F303VC_h_12_9"
+      },
+      {
+        "ID": "c:@SA@GPIO_Type@FI@AFRH",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "AFRH",
+        "location": {
+          "column": "16",
+          "line": "79",
+          "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+        },
+        "name": "AFRH",
+        "origin": "user_include",
+        "scope": "_anonymous_MySTM32F303VC_h_12_9"
+      },
+      {
+        "ID": "c:@SA@GPIO_Type@FI@BRR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "BRR",
+        "location": {
+          "column": "16",
+          "line": "80",
+          "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+        },
+        "name": "BRR",
+        "origin": "user_include",
+        "scope": "_anonymous_MySTM32F303VC_h_12_9"
+      },
+      {
+        "ID": "c:@T@GPIO_Type",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "struct GPIO_Type",
+        "location": {
+          "column": "2",
+          "line": "81",
+          "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+        },
+        "name": "GPIO_Type",
+        "origin": "user_include",
+        "scope": "_anonymous_MySTM32F303VC_h_12_9"
+      }
+    ],
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@SA@RCC_Type",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "83",
+      "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+    },
+    "members": [
+      {
+        "ID": "c:@SA@RCC_Type@FI@CR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CR",
+        "location": {
+          "column": "16",
+          "line": "84",
+          "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+        },
+        "name": "CR",
+        "origin": "user_include",
+        "scope": "_anonymous_MySTM32F303VC_h_83_9"
+      },
+      {
+        "ID": "c:@SA@RCC_Type@FI@CFGR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CFGR",
+        "location": {
+          "column": "16",
+          "line": "85",
+          "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+        },
+        "name": "CFGR",
+        "origin": "user_include",
+        "scope": "_anonymous_MySTM32F303VC_h_83_9"
+      },
+      {
+        "ID": "c:@SA@RCC_Type@FI@CIR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CIR",
+        "location": {
+          "column": "16",
+          "line": "86",
+          "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+        },
+        "name": "CIR",
+        "origin": "user_include",
+        "scope": "_anonymous_MySTM32F303VC_h_83_9"
+      },
+      {
+        "ID": "c:@SA@RCC_Type@FI@APB2RSTR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "APB2RSTR",
+        "location": {
+          "column": "16",
+          "line": "87",
+          "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+        },
+        "name": "APB2RSTR",
+        "origin": "user_include",
+        "scope": "_anonymous_MySTM32F303VC_h_83_9"
+      },
+      {
+        "ID": "c:@SA@RCC_Type@FI@APB1RSTR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "APB1RSTR",
+        "location": {
+          "column": "16",
+          "line": "88",
+          "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+        },
+        "name": "APB1RSTR",
+        "origin": "user_include",
+        "scope": "_anonymous_MySTM32F303VC_h_83_9"
+      },
+      {
+        "ID": "c:@SA@RCC_Type@Ua",
+        "What": "Union",
+        "defdec": "Def",
+        "display": "",
+        "location": {
+          "column": "3",
+          "line": "89",
+          "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+        },
+        "members": [
+          {
+            "ID": "c:@SA@RCC_Type@Ua@FI@AHBENR",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "AHBENR",
+            "location": {
+              "column": "22",
+              "line": "89",
+              "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+            },
+            "name": "AHBENR",
+            "origin": "user_include",
+            "scope": "_anonymous_MySTM32F303VC_h_83_9::_anonymous_MySTM32F303VC_h_89_3"
+          },
+          {
+            "ID": "c:@SA@RCC_Type@Ua@Sa",
+            "What": "Struct",
+            "defdec": "Def",
+            "display": "",
+            "location": {
+              "column": "3",
+              "line": "90",
+              "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+            },
+            "members": [
+              {
+                "ID": "c:@SA@RCC_Type@Ua@Sa@FI@DMA1EN",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "DMA1EN",
+                "location": {
+                  "column": "19",
+                  "line": "90",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "DMA1EN",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_83_9::_anonymous_MySTM32F303VC_h_89_3::_anonymous_MySTM32F303VC_h_90_3"
+              },
+              {
+                "ID": "c:@SA@RCC_Type@Ua@Sa@FI@DMA2EN",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "DMA2EN",
+                "location": {
+                  "column": "17",
+                  "line": "91",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "DMA2EN",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_83_9::_anonymous_MySTM32F303VC_h_89_3::_anonymous_MySTM32F303VC_h_90_3"
+              },
+              {
+                "ID": "c:@SA@RCC_Type@Ua@Sa@FI@SRAMEN",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "SRAMEN",
+                "location": {
+                  "column": "17",
+                  "line": "92",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "SRAMEN",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_83_9::_anonymous_MySTM32F303VC_h_89_3::_anonymous_MySTM32F303VC_h_90_3"
+              },
+              {
+                "ID": "c:@SA@RCC_Type@Ua@Sa@FI@Res",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "Res",
+                "location": {
+                  "column": "17",
+                  "line": "93",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "Res",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_83_9::_anonymous_MySTM32F303VC_h_89_3::_anonymous_MySTM32F303VC_h_90_3"
+              },
+              {
+                "ID": "c:@SA@RCC_Type@Ua@Sa@FI@FLITFEN",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "FLITFEN",
+                "location": {
+                  "column": "17",
+                  "line": "94",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "FLITFEN",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_83_9::_anonymous_MySTM32F303VC_h_89_3::_anonymous_MySTM32F303VC_h_90_3"
+              },
+              {
+                "ID": "c:@SA@RCC_Type@Ua@Sa@FI@Res1",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "Res1",
+                "location": {
+                  "column": "17",
+                  "line": "95",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "Res1",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_83_9::_anonymous_MySTM32F303VC_h_89_3::_anonymous_MySTM32F303VC_h_90_3"
+              },
+              {
+                "ID": "c:@SA@RCC_Type@Ua@Sa@FI@CRCEN",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "CRCEN",
+                "location": {
+                  "column": "17",
+                  "line": "96",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "CRCEN",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_83_9::_anonymous_MySTM32F303VC_h_89_3::_anonymous_MySTM32F303VC_h_90_3"
+              },
+              {
+                "ID": "c:@SA@RCC_Type@Ua@Sa@FI@Res2",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "Res2",
+                "location": {
+                  "column": "17",
+                  "line": "97",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "Res2",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_83_9::_anonymous_MySTM32F303VC_h_89_3::_anonymous_MySTM32F303VC_h_90_3"
+              },
+              {
+                "ID": "c:@SA@RCC_Type@Ua@Sa@FI@IOPAEN",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IOPAEN",
+                "location": {
+                  "column": "17",
+                  "line": "98",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "IOPAEN",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_83_9::_anonymous_MySTM32F303VC_h_89_3::_anonymous_MySTM32F303VC_h_90_3"
+              },
+              {
+                "ID": "c:@SA@RCC_Type@Ua@Sa@FI@IOPBEN",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IOPBEN",
+                "location": {
+                  "column": "17",
+                  "line": "99",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "IOPBEN",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_83_9::_anonymous_MySTM32F303VC_h_89_3::_anonymous_MySTM32F303VC_h_90_3"
+              },
+              {
+                "ID": "c:@SA@RCC_Type@Ua@Sa@FI@IOPCEN",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IOPCEN",
+                "location": {
+                  "column": "17",
+                  "line": "100",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "IOPCEN",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_83_9::_anonymous_MySTM32F303VC_h_89_3::_anonymous_MySTM32F303VC_h_90_3"
+              },
+              {
+                "ID": "c:@SA@RCC_Type@Ua@Sa@FI@IOPDEN",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IOPDEN",
+                "location": {
+                  "column": "17",
+                  "line": "101",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "IOPDEN",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_83_9::_anonymous_MySTM32F303VC_h_89_3::_anonymous_MySTM32F303VC_h_90_3"
+              },
+              {
+                "ID": "c:@SA@RCC_Type@Ua@Sa@FI@IOPEEN",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IOPEEN",
+                "location": {
+                  "column": "17",
+                  "line": "102",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "IOPEEN",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_83_9::_anonymous_MySTM32F303VC_h_89_3::_anonymous_MySTM32F303VC_h_90_3"
+              },
+              {
+                "ID": "c:@SA@RCC_Type@Ua@Sa@FI@IOPFEN",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "IOPFEN",
+                "location": {
+                  "column": "17",
+                  "line": "103",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "IOPFEN",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_83_9::_anonymous_MySTM32F303VC_h_89_3::_anonymous_MySTM32F303VC_h_90_3"
+              },
+              {
+                "ID": "c:@SA@RCC_Type@Ua@Sa@FI@Res3",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "Res3",
+                "location": {
+                  "column": "17",
+                  "line": "104",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "Res3",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_83_9::_anonymous_MySTM32F303VC_h_89_3::_anonymous_MySTM32F303VC_h_90_3"
+              },
+              {
+                "ID": "c:@SA@RCC_Type@Ua@Sa@FI@TSCEN",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "TSCEN",
+                "location": {
+                  "column": "17",
+                  "line": "105",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "TSCEN",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_83_9::_anonymous_MySTM32F303VC_h_89_3::_anonymous_MySTM32F303VC_h_90_3"
+              },
+              {
+                "ID": "c:@SA@RCC_Type@Ua@Sa@FI@Res4",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "Res4",
+                "location": {
+                  "column": "17",
+                  "line": "106",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "Res4",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_83_9::_anonymous_MySTM32F303VC_h_89_3::_anonymous_MySTM32F303VC_h_90_3"
+              },
+              {
+                "ID": "c:@SA@RCC_Type@Ua@Sa@FI@ADC12",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ADC12",
+                "location": {
+                  "column": "17",
+                  "line": "107",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "ADC12",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_83_9::_anonymous_MySTM32F303VC_h_89_3::_anonymous_MySTM32F303VC_h_90_3"
+              },
+              {
+                "ID": "c:@SA@RCC_Type@Ua@Sa@FI@ADC34",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "ADC34",
+                "location": {
+                  "column": "17",
+                  "line": "108",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "ADC34",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_83_9::_anonymous_MySTM32F303VC_h_89_3::_anonymous_MySTM32F303VC_h_90_3"
+              },
+              {
+                "ID": "c:@SA@RCC_Type@Ua@Sa@FI@Res5",
+                "What": "FieldDecl",
+                "defdec": "Def",
+                "display": "Res5",
+                "location": {
+                  "column": "17",
+                  "line": "109",
+                  "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+                },
+                "name": "Res5",
+                "origin": "user_include",
+                "scope": "_anonymous_MySTM32F303VC_h_83_9::_anonymous_MySTM32F303VC_h_89_3::_anonymous_MySTM32F303VC_h_90_3"
+              }
+            ],
+            "name": "",
+            "origin": "user_include",
+            "scope": "_anonymous_MySTM32F303VC_h_83_9::_anonymous_MySTM32F303VC_h_89_3"
+          }
+        ],
+        "name": "",
+        "origin": "user_include",
+        "scope": "_anonymous_MySTM32F303VC_h_83_9"
+      },
+      {
+        "ID": "c:@SA@RCC_Type@FI@APB2ENR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "APB2ENR",
+        "location": {
+          "column": "16",
+          "line": "112",
+          "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+        },
+        "name": "APB2ENR",
+        "origin": "user_include",
+        "scope": "_anonymous_MySTM32F303VC_h_83_9"
+      },
+      {
+        "ID": "c:@SA@RCC_Type@FI@APB1ENR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "APB1ENR",
+        "location": {
+          "column": "16",
+          "line": "113",
+          "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+        },
+        "name": "APB1ENR",
+        "origin": "user_include",
+        "scope": "_anonymous_MySTM32F303VC_h_83_9"
+      },
+      {
+        "ID": "c:@SA@RCC_Type@FI@BDCR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "BDCR",
+        "location": {
+          "column": "16",
+          "line": "114",
+          "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+        },
+        "name": "BDCR",
+        "origin": "user_include",
+        "scope": "_anonymous_MySTM32F303VC_h_83_9"
+      },
+      {
+        "ID": "c:@SA@RCC_Type@FI@CSR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CSR",
+        "location": {
+          "column": "16",
+          "line": "115",
+          "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+        },
+        "name": "CSR",
+        "origin": "user_include",
+        "scope": "_anonymous_MySTM32F303VC_h_83_9"
+      },
+      {
+        "ID": "c:@SA@RCC_Type@FI@AHBRSTR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "AHBRSTR",
+        "location": {
+          "column": "16",
+          "line": "116",
+          "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+        },
+        "name": "AHBRSTR",
+        "origin": "user_include",
+        "scope": "_anonymous_MySTM32F303VC_h_83_9"
+      },
+      {
+        "ID": "c:@SA@RCC_Type@FI@CFGR2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CFGR2",
+        "location": {
+          "column": "16",
+          "line": "117",
+          "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+        },
+        "name": "CFGR2",
+        "origin": "user_include",
+        "scope": "_anonymous_MySTM32F303VC_h_83_9"
+      },
+      {
+        "ID": "c:@SA@RCC_Type@FI@CFGR3",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CFGR3",
+        "location": {
+          "column": "16",
+          "line": "118",
+          "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+        },
+        "name": "CFGR3",
+        "origin": "user_include",
+        "scope": "_anonymous_MySTM32F303VC_h_83_9"
+      },
+      {
+        "ID": "c:@T@RCC_Type",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "struct RCC_Type",
+        "location": {
+          "column": "2",
+          "line": "119",
+          "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+        },
+        "name": "RCC_Type",
+        "origin": "user_include",
+        "scope": "_anonymous_MySTM32F303VC_h_83_9"
+      }
+    ],
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:MySTM32F303VC.h@2647@macro@GPIOA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA",
+    "location": {
+      "column": "9",
+      "line": "121",
+      "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+    },
+    "name": "GPIOA",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:MySTM32F303VC.h@2731@macro@GPIOE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOE",
+    "location": {
+      "column": "9",
+      "line": "122",
+      "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+    },
+    "name": "GPIOE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:MySTM32F303VC.h@2772@macro@RCC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC",
+    "location": {
+      "column": "9",
+      "line": "123",
+      "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\MySTM32F303VC.h"
+    },
+    "name": "RCC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "C:\\Users\\itama\\Desktop\\Laboratorio di Misure a Microcontrollore\\Lezione GPIO\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  }
+]

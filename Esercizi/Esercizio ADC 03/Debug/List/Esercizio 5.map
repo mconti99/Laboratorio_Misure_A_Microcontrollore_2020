@@ -1,0 +1,274 @@
+###############################################################################
+#
+# IAR ELF Linker V8.50.6.265/W32 for ARM                  14/Dec/2020  18:41:09
+# Copyright 2007-2020 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\itama\Desktop\Laboratorio di Misure a
+#        Microcontrollore\Esercizi\Esercizio ADC 03\Debug\Exe\Esercizio 5.out
+#    Map file     =
+#        C:\Users\itama\Desktop\Laboratorio di Misure a
+#        Microcontrollore\Esercizi\Esercizio ADC 03\Debug\List\Esercizio 5.map
+#    Command line =
+#        -f C:\Users\itama\AppData\Local\Temp\EW5A75.tmp
+#        ("C:\Users\itama\Desktop\Laboratorio di Misure a
+#        Microcontrollore\Esercizi\Esercizio ADC 03\Debug\Obj\main.o"
+#        --no_out_extension -o "C:\Users\itama\Desktop\Laboratorio di Misure a
+#        Microcontrollore\Esercizi\Esercizio ADC 03\Debug\Exe\Esercizio 5.out"
+#        --map "C:\Users\itama\Desktop\Laboratorio di Misure a
+#        Microcontrollore\Esercizi\Esercizio ADC 03\Debug\List\Esercizio 5.map"
+#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\config\linker\ST\stm32f303xC.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x803'ffff] { ro };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'9fff] {
+          rw, block CSTACK, block HEAP };
+
+No sections matched the following patterns:
+
+  section .ccmram  in "P3"
+
+
+  Section          Kind         Address    Size  Object
+  -------          ----         -------    ----  ------
+"A0":                                      0x40
+  .intvec          ro code   0x800'0000    0x40  vector_table_M.o [4]
+                           - 0x800'0040    0x40
+
+"P1":                                    0x1388
+  .text            ro code   0x800'0040   0x594  main.o [1]
+  .text            ro code   0x800'05d4    0x48  FltToDbl.o [3]
+  .text            ro code   0x800'061c    0x12  math_wrappers64.o [3]
+  .text            ro code   0x800'062e    0x3a  zero_init3.o [4]
+  .text            ro code   0x800'0668   0x1a2  DblMul.o [3]
+  .text            ro code   0x800'080a     0x2  vector_table_M.o [4]
+  .text            ro code   0x800'080c   0x17a  DblAdd.o [3]
+  .text            ro code   0x800'0988    0x28  DblToU32.o [3]
+  .text            ro code   0x800'09b0   0x102  sqrt.o [3]
+  .text            ro code   0x800'0ab4    0x68  DblToFlt.o [3]
+  .text            ro code   0x800'0b1c    0x1a  U32ToDbl.o [3]
+  .text            ro code   0x800'0b38   0x246  DblDiv.o [3]
+  .text            ro code   0x800'0d80   0x424  cos_sin64.o [3]
+  .text            ro code   0x800'11a4    0xe2  DblSub.o [3]
+  .text            ro code   0x800'1288    0x2e  DblCmpLe.o [3]
+  .text            ro code   0x800'12b8    0x3a  DblToS32.o [3]
+  .text            ro code   0x800'12f4    0x22  S32ToDbl.o [3]
+  .text            ro code   0x800'1318    0x28  data_init.o [4]
+  .text            ro code   0x800'1340    0x22  fpinit_M.o [3]
+  .iar.init_table  const     0x800'1364    0x10  - Linker created -
+  .text            ro code   0x800'1374    0x1e  cmain.o [4]
+  .text            ro code   0x800'1392     0x4  low_level_init.o [2]
+  .text            ro code   0x800'1396     0x4  exit.o [2]
+  .text            ro code   0x800'139c     0xa  cexit.o [4]
+  .text            ro code   0x800'13a8    0x14  exit.o [5]
+  .text            ro code   0x800'13bc     0xc  cstartup_M.o [4]
+  .rodata          const     0x800'13c8     0x0  zero_init3.o [4]
+                           - 0x800'13c8  0x1388
+
+"P2", part 1 of 2:                        0x600
+  .bss             zero     0x2000'0000   0x400  main.o [1]
+  .bss             zero     0x2000'0400   0x190  main.o [1]
+  .bss             zero     0x2000'0590    0x50  main.o [1]
+  .bss             zero     0x2000'05e0     0x4  main.o [1]
+  .bss             zero     0x2000'05e4     0x4  main.o [1]
+  .bss             zero     0x2000'05e8     0x4  main.o [1]
+  .bss             zero     0x2000'05ec     0x4  main.o [1]
+  .bss             zero     0x2000'05f0     0x4  main.o [1]
+  .bss             zero     0x2000'05f4     0x4  main.o [1]
+  .bss             zero     0x2000'05f8     0x4  main.o [1]
+  .bss             zero     0x2000'05fc     0x4  main.o [1]
+                          - 0x2000'0600   0x600
+
+"P2", part 2 of 2:                       0x2000
+  CSTACK                    0x2000'0600  0x2000  <Block>
+    CSTACK         uninit   0x2000'0600  0x2000  <Block tail>
+                          - 0x2000'2600  0x2000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'13c8   0x803'ffff  0x3'ec38
+  0x2000'2600  0x2000'9fff    0x7a00
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x600:
+          0x2000'0000  0x600
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module             ro code  ro data  rw data
+    ------             -------  -------  -------
+command line/config:
+    --------------------------------------------
+    Total:
+
+C:\Users\itama\Desktop\Laboratorio di Misure a Microcontrollore\Esercizi\Esercizio ADC 03\Debug\Obj: [1]
+    main.o               1'428             1'536
+    --------------------------------------------
+    Total:               1'428             1'536
+
+dl7M_tlf.a: [2]
+    exit.o                   4
+    low_level_init.o         4
+    --------------------------------------------
+    Total:                   8
+
+m7M_tls.a: [3]
+    DblAdd.o               378
+    DblCmpLe.o              46
+    DblDiv.o               582
+    DblMul.o               418
+    DblSub.o               226
+    DblToFlt.o             104
+    DblToS32.o              58
+    DblToU32.o              40
+    FltToDbl.o              72
+    S32ToDbl.o              34
+    U32ToDbl.o              26
+    cos_sin64.o          1'060
+    fpinit_M.o              34
+    math_wrappers64.o       18
+    sqrt.o                 258
+    --------------------------------------------
+    Total:               3'354
+
+rt7M_tl.a: [4]
+    cexit.o                 10
+    cmain.o                 30
+    cstartup_M.o            12
+    data_init.o             40
+    vector_table_M.o        66
+    zero_init3.o            58
+    --------------------------------------------
+    Total:                 216
+
+shb_l.a: [5]
+    exit.o                  20
+    --------------------------------------------
+    Total:                  20
+
+    Gaps                    20        2
+    Linker created                   16    8'192
+------------------------------------------------
+    Grand Total:         5'046       18    9'728
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'1364          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'1374          --   Gb  - Linker created -
+?main                    0x800'1375         Code  Gb  cmain.o [4]
+CSTACK$$Base            0x2000'0600          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'2600          --   Gb  - Linker created -
+Region$$Table$$Base      0x800'1364          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'1374          --   Gb  - Linker created -
+SD                      0x2000'05fc    0x4  Data  Gb  main.o [1]
+__aeabi_cdcmple          0x800'1289         Code  Gb  DblCmpLe.o [3]
+__aeabi_d2f              0x800'0ab5         Code  Gb  DblToFlt.o [3]
+__aeabi_d2iz             0x800'12b9         Code  Gb  DblToS32.o [3]
+__aeabi_d2uiz            0x800'0989         Code  Gb  DblToU32.o [3]
+__aeabi_dadd             0x800'080d         Code  Gb  DblAdd.o [3]
+__aeabi_ddiv             0x800'0b39         Code  Gb  DblDiv.o [3]
+__aeabi_dmul             0x800'0669         Code  Gb  DblMul.o [3]
+__aeabi_dsub             0x800'11a5         Code  Gb  DblSub.o [3]
+__aeabi_f2d              0x800'05d5         Code  Gb  FltToDbl.o [3]
+__aeabi_i2d              0x800'12f5         Code  Gb  S32ToDbl.o [3]
+__aeabi_ui2d             0x800'0b1d         Code  Gb  U32ToDbl.o [3]
+__cmain                  0x800'1375         Code  Gb  cmain.o [4]
+__exit                   0x800'13a9   0x14  Code  Gb  exit.o [5]
+__iar_Sin64              0x800'0d81  0x38e  Code  Lc  cos_sin64.o [3]
+__iar_dadd               0x800'11b5         Code  Gb  DblSub.o [3]
+__iar_data_init3         0x800'1319   0x28  Code  Gb  data_init.o [4]
+__iar_dsub               0x800'081d         Code  Gb  DblAdd.o [3]
+__iar_dsubStart          0x800'082f         Code  Gb  DblAdd.o [3]
+__iar_init_vfp           0x800'1341         Code  Gb  fpinit_M.o [3]
+__iar_program_start      0x800'13bd         Code  Gb  cstartup_M.o [4]
+__iar_sin64              0x800'11a1    0x4  Code  Gb  cos_sin64.o [3]
+__iar_sin_medium         0x800'11a1    0x4  Code  Gb  cos_sin64.o [3]
+__iar_sin_medium64       0x800'11a1    0x4  Code  Gb  cos_sin64.o [3]
+__iar_sin_mediuml        0x800'11a1    0x4  Code  Gb  cos_sin64.o [3]
+__iar_sqrt64             0x800'09c1         Code  Gb  sqrt.o [3]
+__iar_vfp___iar_sqrt64   0x800'09b1         Code  Gb  sqrt.o [3]
+__iar_vfp_sin            0x800'0623    0xc  Code  Gb  math_wrappers64.o [3]
+__iar_vfp_sqrt           0x800'09b1         Code  Gb  sqrt.o [3]
+__iar_vfp_sqrtl          0x800'09b1         Code  Gb  sqrt.o [3]
+__iar_zero_init3         0x800'062f   0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init         0x800'1393    0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000         Data  Gb  vector_table_M.o [4]
+_call_main               0x800'1381         Code  Gb  cmain.o [4]
+_exit                    0x800'139d         Code  Gb  cexit.o [4]
+_main                    0x800'138f         Code  Gb  cmain.o [4]
+deviazione              0x2000'05f4    0x4  Data  Gb  main.o [1]
+dx                      0x2000'05ec    0x4  Data  Gb  main.o [1]
+exit                     0x800'1397    0x4  Code  Gb  exit.o [2]
+i                       0x2000'05e4    0x4  Data  Gb  main.o [1]
+main                     0x800'0041  0x594  Code  Gb  main.o [1]
+punt                    0x2000'05e0    0x4  Data  Gb  main.o [1]
+sin                      0x800'11a1    0x4  Code  Gb  cos_sin64.o [3]
+sinl                     0x800'11a1    0x4  Code  Gb  cos_sin64.o [3]
+somma                   0x2000'05f8    0x4  Data  Gb  main.o [1]
+sqrt                     0x800'09c1         Code  Gb  sqrt.o [3]
+sqrtl                    0x800'09c1         Code  Gb  sqrt.o [3]
+v                       0x2000'0400  0x190  Data  Gb  main.o [1]
+x                       0x2000'05e8    0x4  Data  Gb  main.o [1]
+x1                      0x2000'05f0    0x4  Data  Gb  main.o [1]
+y                       0x2000'0000  0x400  Data  Gb  main.o [1]
+z                       0x2000'0590   0x50  Data  Gb  main.o [1]
+
+
+[1] = C:\Users\itama\Desktop\Laboratorio di Misure a Microcontrollore\Esercizi\Esercizio ADC 03\Debug\Obj
+[2] = dl7M_tlf.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  5'046 bytes of readonly  code memory
+     18 bytes of readonly  data memory
+  9'728 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
